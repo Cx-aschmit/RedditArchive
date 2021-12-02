@@ -63,7 +63,7 @@ class JobInputter(threading.Thread):
 
 class JobOutputter(threading.Thread):
     """
-    Takes output from the job and sends it to stdout
+    Takes output from the job and sends it to stdout asdsd
     """
     def __init__(self, job_name, popen, out_fd, lock):
         self.job_name = job_name
