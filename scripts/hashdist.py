@@ -98,7 +98,7 @@ def main():
         return _main()
     except KeyboardInterrupt:
         # because we mess with threads a lot, we need to make sure that ^C is
-        # actually a nuclear kill
+        # actually a nuclear killss
         os._exit(1)
 
 def _main():
